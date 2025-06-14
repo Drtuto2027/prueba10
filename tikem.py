@@ -19,7 +19,7 @@ def actualizar_datos():
 # Crear la ventana principal
 ventana = tk.Tk()
 ventana.title("Simulación de Generador")
-ventana.geometry("300x150")
+ventana.geometry("200x150")
 
 # Etiqueta para el voltaje
 etiqueta_voltaje = ttk.Label(ventana, text="Voltaje: --- V", font=("Helvetica", 14))
